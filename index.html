@@ -3,15 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Gradio App</title>
+    <title>Gala AI Chatbot</title>
     <!-- Gradio JavaScript -->
     <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/4.1.1/gradio.js"></script>
 </head>
 <body>
-    <!-- Gradio App -->
-    <gradio-app src="https://dtrejopizzo-starkbot.hf.space"></gradio-app>
-
-    <!-- Optional: Add additional custom styles or scripts here -->
+<script>
+window.embeddedChatbotConfig = {
+chatbotId: "tCZAtjaduB471owjLMP8H",
+domain: "www.chatbase.co"
+}
+</script>
+<script
+src="https://www.chatbase.co/embed.min.js"
+chatbotId="tCZAtjaduB471owjLMP8H"
+domain="www.chatbase.co"
+defer>
+</script>
 
 </body>
 </html>
